@@ -1,2 +1,2 @@
-# Project1Server
+# PostIt's Server
 Server Repo
