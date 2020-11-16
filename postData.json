@@ -21,5 +21,12 @@
     "gif": "",
     "emoji": "",
     "comments": []
+  },
+  "2": {
+    "name": "bob",
+    "post": "this is the first post: hello world!",
+    "gif": "https://media2.giphy.com/media/dwM2lNJLUtqqX6Sx8o/200.gif?cid=d6d51a9azpkahvnx9ghw462em6mbbltowqewqwn41612fg0s&rid=200.gif",
+    "emoji": "",
+    "comments": []
   }
 }
