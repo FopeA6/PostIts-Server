@@ -1,0 +1,25 @@
+{
+  "0": {
+    "name": "raj",
+    "post": "watched die hard, classic",
+    "gif": "",
+    "emoji": "",
+    "comments": [
+      {
+        "name": "bill",
+        "comment": "that's cool"
+      },
+      {
+        "name": "rosa",
+        "comment": "love that movie"
+      }
+    ]
+  },
+  "1": {
+    "name": "morty",
+    "post": "don't listen to rick, he's crazy",
+    "gif": "",
+    "emoji": "",
+    "comments": []
+  }
+}
