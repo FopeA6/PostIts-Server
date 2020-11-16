@@ -22,6 +22,23 @@ server.get('/posts', (req, res)=>{
     res.status(200).send(data);
 })
 
+server.post('/posts', (req, res)=>{
+    const reqBody = req.body;
+    const newPostKey = Object.keys(data).length;
+    const newPost = {
+        name: reqBody.name,
+        post: reqBody.post,
+        gif: reqBody.gif,
+        emoji: reqBody.emoji,
+        comment: []
+    }
+    data[newPostKey] = newPost;
+    const newData = JSON.stringify(data, null, 2);
+    fs.writeFileSync('postData.json', newData);
+
+    res.send(data);
+})
+
 // function postNote(name, post, gif, emoji){
 //     let newNote = {
 //         name: name,
