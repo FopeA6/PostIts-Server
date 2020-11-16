@@ -30,7 +30,7 @@ server.post('/posts', (req, res)=>{
         post: reqBody.post,
         gif: reqBody.gif,
         emoji: reqBody.emoji,
-        comment: []
+        comments: []
     }
     data[newPostKey] = newPost;
     const newData = JSON.stringify(data, null, 2);
