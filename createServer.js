@@ -44,7 +44,8 @@ server.post('/posts/:id', (req, res)=>{
 
     const commentData = {
         name: reqBody.name,
-        comment: reqBody.comment
+        comment: reqBody.comment,
+        emoji: reqBody.emoji
     }
 
     const commentArray = data[postId].comments
