@@ -1,11 +1,12 @@
 {
-  "name": "PostIts-Server",
+  "name": "postits-server",
   "version": "1.0.0",
   "description": "Server Repo",
   "main": "createServer.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon startServer.js"
+    "start": "nodemon startServer.js",
+    "test": "mocha",
+    "coverage": "nyc --reporter=text-summary mocha"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,9 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "nodemon": "^2.0.6"
+  },
+  "devDependencies": {
+    "nyc": "^15.1.0",
+    "supertest": "^6.0.1"
   }
 }
