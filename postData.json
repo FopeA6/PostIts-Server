@@ -3,7 +3,7 @@
     "name": "raj",
     "post": "watched die hard, classic",
     "gif": "",
-    "emoji": "",
+    "emoji": [],
     "comments": [
       {
         "name": "bill",
@@ -12,6 +12,10 @@
       {
         "name": "rosa",
         "comment": "love that movie"
+      },
+      {
+        "name": "raj",
+        "comment": "thanks"
       }
     ]
   },
@@ -19,14 +23,14 @@
     "name": "morty",
     "post": "don't listen to rick, he's crazy",
     "gif": "",
-    "emoji": "",
+    "emoji": [],
     "comments": []
   },
   "2": {
     "name": "bob",
     "post": "this is the first post: hello world!",
     "gif": "https://media2.giphy.com/media/dwM2lNJLUtqqX6Sx8o/200.gif?cid=d6d51a9azpkahvnx9ghw462em6mbbltowqewqwn41612fg0s&rid=200.gif",
-    "emoji": "",
+    "emoji": [],
     "comments": []
   }
 }
