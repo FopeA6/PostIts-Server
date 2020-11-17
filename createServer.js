@@ -39,6 +39,24 @@ server.post('/posts', (req, res)=>{
     res.send(data);
 })
 
+server.post('/posts/:id', (req, res)=>{
+    const reqBody = req.body;
+    const postId = req.params.id;
+
+    const commentData = {
+        name: reqBody.name,
+        comment: reqBody.comment
+    }
+
+    const commentArray = data[postId].comments
+    commentArray[commentArray.length] = commentData;
+
+    const newData = JSON.stringify(data, null, 2);
+    fs.writeFileSync('postData.json', newData);
+
+    res.send(data);
+})
+
 // function postNote(name, post, gif, emoji){
 //     let newNote = {
 //         name: name,
