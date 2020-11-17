@@ -5,7 +5,7 @@
   "main": "createServer.js",
   "scripts": {
     "start": "nodemon startServer.js",
-    "test": "mocha 'test/apiTest.js'",
+    "test": "mocha 'test/apitest.js'",
     "coverage": "nyc --reporter=text-summary mocha"
   },
   "repository": {
