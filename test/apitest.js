@@ -41,3 +41,30 @@ describe('Post /posts', function () {
     })
 });
 
+// ERROR TESTING 
+// describe ('Post /posts/:id', function () {
+//     it ('respond with 400 as user has not been created', function (done) {
+//         request(server)
+//         .post('/posts')
+//         .send(data)
+//         .set('Accept', 'application/json')
+//         .expect('Content-Type', /json/)
+//         .expect(400)
+//     })
+// })
+
+describe('Post /posts/:id', function () { 
+    let data = 'postdata.json'
+    it('should enter a comment under a user post with a status of 201', function (done) {
+        request(server)
+        .post('/posts/:id')
+        .send(data)
+        .set ('Accept', 'application/json')
+        .expect('Content-Type', /text/)
+        .expect(201)
+        .end((err) => {
+            if (err) return done(err);
+            done();
+        })
+    })
+});

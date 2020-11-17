@@ -53,7 +53,7 @@ server.post('/posts/:id', (req, res)=>{
     const newData = JSON.stringify(data, null, 2);
     fs.writeFileSync('postData.json', newData);
 
-    res.send(data);
+    res.status(201).send(data);
 })
 
 // function postNote(name, post, gif, emoji){
