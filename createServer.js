@@ -9,7 +9,6 @@ const fs = require('fs');
 const rawData = fs.readFileSync('postData.json');
 const data = JSON.parse(rawData);
 
-
 let server = express();
 server.use(cors());
 server.use(bodyParser.json());
