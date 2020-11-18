@@ -7,7 +7,7 @@ const server = require('../createServer.js')
 
 // Testing
 // get all users posts
-describe('GET /', function () {
+describe('/', () => {
 let api
 before(() => {
     api = server.listen(5000, () => console.log('Testing server is online'))
@@ -22,7 +22,7 @@ after(done => {
             .get('/')
             .expect(200, done);
     });
-    it('respond with json containing a list of all posts by users', function (done) {
+    it('respond with json containing a list of all posts by users', done =>  {
         request(server)
             .get('/posts')
             .set('Accept', 'application/json')
@@ -36,7 +36,7 @@ after(done => {
         emoji: ["https://i.pinimg.com/originals/85/65/50/856550aa773911d00b76b24aaa4bc467.png"],
         comments: []
   }
-    it('should enter a new post into the external file with a status of 201', function (done) {
+    it('should enter a new post into the external file with a status of 201', done =>  {
             request(server)
             .post('/posts')
             .send(data)
@@ -53,7 +53,7 @@ after(done => {
         comment: "i don't like darlek",
         emoji: []
     }
-    it('should enter a comment under a user post with a status of 201', function (done) {
+    it('should enter a comment under a user post with a status of 201', done =>  {
             request(server)
             .post('/posts/2')
             .send(comment)
@@ -65,37 +65,11 @@ after(done => {
                 done();
             })
         })
-    })
-
-
-
-
-   
-
-// // ERROR TESTING 
-// // describe ('Post /posts/:id', function () {
-// //     it ('respond with 400 as user has not been created', function (done) {
-// //         request(server)
-// //         .post('/posts')
-// //         .send(data)
-// //         .set('Accept', 'application/json')
-// //         .expect('Content-Type', /json/)
-// //         .expect(400)
-// //     })
-// // })
-
-
-    let data = 'postData.json'
-    it('should enter a comment under a user post with a status of 201', function (done) {
-        request(server)
-        .post('/posts/:id')
-        .send(data)
-        .set ('Accept', 'application/json')
-        .expect('Content-Type', /json/)
-        .expect(201)
-        .end((err) => {
-            if (err) return done(err);
-            done();
+it('responds to invalid method request with 405', done => {
+            request(api)
+                .post('/')
+                .expect(405, done)
         })
-    })
-// })
+
+})
+
