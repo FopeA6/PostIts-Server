@@ -3,15 +3,27 @@
     "name": "raj",
     "post": "watched die hard, classic",
     "gif": "",
-    "emoji": "",
+    "emoji": [],
     "comments": [
       {
         "name": "bill",
-        "comment": "that's cool"
+        "comment": "that's cool",
+        "emoji": []
       },
       {
         "name": "rosa",
-        "comment": "love that movie"
+        "comment": "love that movie",
+        "emoji": []
+      },
+      {
+        "name": "raj",
+        "comment": "thanks",
+        "emoji": []
+      },
+      {
+        "name": "Joe",
+        "comment": "really",
+        "emoji": []
       }
     ]
   },
@@ -19,7 +31,67 @@
     "name": "morty",
     "post": "don't listen to rick, he's crazy",
     "gif": "",
-    "emoji": "",
+    "emoji": [],
+    "comments": [
+      {
+        "name": "rick",
+        "comment": "insane would be more accurate",
+        "emoji": [
+          "https://cdn.shopify.com/s/files/1/1061/1924/products/Sad_Face_Emoji_large.png?v=1571606037"
+        ]
+      }
+    ]
+  },
+  "2": {
+    "name": "bob",
+    "post": "this is the first post: hello world!",
+    "gif": "https://media2.giphy.com/media/dwM2lNJLUtqqX6Sx8o/200.gif?cid=d6d51a9azpkahvnx9ghw462em6mbbltowqewqwn41612fg0s&rid=200.gif",
+    "emoji": [],
+    "comments": [
+      {
+        "name": "dr Who",
+        "comment": "i don't like darlek",
+        "emoji": []
+      },
+      {
+        "name": "dr Who",
+        "comment": "i don't like darlek",
+        "emoji": []
+      }
+    ]
+  },
+  "3": {
+    "name": "beth",
+    "post": "i like cats",
+    "gif": "",
+    "emoji": [
+      "https://i.pinimg.com/originals/85/65/50/856550aa773911d00b76b24aaa4bc467.png"
+    ],
+    "comments": []
+  },
+  "4": {
+    "name": "billy",
+    "post": "hello this posts",
+    "gif": "",
+    "emoji": [],
+    "comments": []
+  },
+  "6": {
+    "name": "Johnny",
+    "post": "Eating food is nice",
+    "gif": "",
+    "emoji": [
+      "https://i.pinimg.com/originals/85/65/50/856550aa773911d00b76b24aaa4bc467.png"
+    ],
+    "comments": []
+  },
+  "7": {
+    "name": "Johnny",
+    "post": "Eating food is nice",
+    "gif": "",
+    "emoji": [
+      "https://i.pinimg.com/originals/85/65/50/856550aa773911d00b76b24aaa4bc467.png"
+    ],
     "comments": []
   }
 }
