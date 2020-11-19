@@ -47,7 +47,18 @@
     "post": "this is the first post: hello world!",
     "gif": "https://media2.giphy.com/media/dwM2lNJLUtqqX6Sx8o/200.gif?cid=d6d51a9azpkahvnx9ghw462em6mbbltowqewqwn41612fg0s&rid=200.gif",
     "emoji": [],
-    "comments": []
+    "comments": [
+      {
+        "name": "dr Who",
+        "comment": "i don't like darlek",
+        "emoji": []
+      },
+      {
+        "name": "dr Who",
+        "comment": "i don't like darlek",
+        "emoji": []
+      }
+    ]
   },
   "3": {
     "name": "beth",
@@ -65,10 +76,19 @@
     "emoji": [],
     "comments": []
   },
+  "6": {
+    "name": "Johnny",
+    "post": "Eating food is nice",
+    "gif": "",
+    "emoji": [
+      "https://i.pinimg.com/originals/85/65/50/856550aa773911d00b76b24aaa4bc467.png"
+    ],
+    "comments": []
+  },
   "7": {
-    "name": "Dragos",
-    "post": "What is actually going on on this website?",
-    "gif": "https://media2.giphy.com/media/A0lBH04aSvP30VUwdM/200.gif?cid=d6d51a9aznytuowgtqij6cip8twpzdsz6ahsr0zltetlzl3t&rid=200.gif",
+    "name": "Johnny",
+    "post": "Eating food is nice",
+    "gif": "",
     "emoji": [
       "https://i.pinimg.com/originals/85/65/50/856550aa773911d00b76b24aaa4bc467.png"
     ],
