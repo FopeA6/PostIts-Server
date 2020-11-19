@@ -19,6 +19,11 @@
         "name": "raj",
         "comment": "thanks",
         "emoji": []
+      },
+      {
+        "name": "Joe",
+        "comment": "really",
+        "emoji": []
       }
     ]
   },
@@ -86,6 +91,15 @@
     "name": "Johnny",
     "post": "Eating food is nice",
     "gif": "",
+    "emoji": [
+      "https://i.pinimg.com/originals/85/65/50/856550aa773911d00b76b24aaa4bc467.png"
+    ],
+    "comments": []
+  },
+  "7": {
+    "name": "Dragos",
+    "post": "What is actually going on on this website?",
+    "gif": "https://media2.giphy.com/media/A0lBH04aSvP30VUwdM/200.gif?cid=d6d51a9aznytuowgtqij6cip8twpzdsz6ahsr0zltetlzl3t&rid=200.gif",
     "emoji": [
       "https://i.pinimg.com/originals/85/65/50/856550aa773911d00b76b24aaa4bc467.png"
     ],
