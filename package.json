@@ -4,7 +4,8 @@
   "description": "Server Repo",
   "main": "createServer.js",
   "scripts": {
-    "start": "nodemon startServer.js",
+    "start": "node startServer.js",
+    "start-dev": "nodemon startServer.js",
     "test": "mocha 'test/apitest.js'",
     "coverage": "nyc --reporter=text-summary mocha"
   },
